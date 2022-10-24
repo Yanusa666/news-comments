@@ -1,0 +1,9 @@
+{
+  "http_server": {
+    "listen_address": "0.0.0.0:8002"
+  },
+  "log_level": "debug",
+  "postgres": {
+    "URI": "postgresql://username:password@127.0.0.1:5433/comments?pool_min_conns=32&pool_max_conns=64"
+  }
+}
